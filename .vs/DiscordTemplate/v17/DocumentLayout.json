@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\oauth\\oauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:oauth\\oauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\modules\\prefixmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:modules\\prefixmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\services\\licenses\\ilicenseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:services\\licenses\\ilicenseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\modules\\usermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:modules\\usermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\oauth\\ioauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:oauth\\ioauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\services\\licenses\\licenseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:services\\licenses\\licenseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\modules\\licensemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:modules\\licensemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\prefixhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:prefixhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\interactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:interactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|c:\\users\\ricar\\documents\\github\\discord-bot-oauth-client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA0469D-23AE-4360-AA1A-22D58158D659}|Discord Template.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOAuthClient.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\OAuth\\IOAuthClient.cs",
+              "RelativeDocumentMoniker": "OAuth\\IOAuthClient.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\OAuth\\IOAuthClient.cs",
+              "RelativeToolTip": "OAuth\\IOAuthClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:23:59.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OAuthClient.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\OAuth\\OAuthClient.cs",
+              "RelativeDocumentMoniker": "OAuth\\OAuthClient.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\OAuth\\OAuthClient.cs",
+              "RelativeToolTip": "OAuth\\OAuthClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:21:23.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InteractionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\InteractionHandler.cs",
+              "RelativeDocumentMoniker": "InteractionHandler.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\InteractionHandler.cs",
+              "RelativeToolTip": "InteractionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:20:34.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILicenseAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Services\\Licenses\\ILicenseAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Licenses\\ILicenseAuthService.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Services\\Licenses\\ILicenseAuthService.cs",
+              "RelativeToolTip": "Services\\Licenses\\ILicenseAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:20:16.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LicenseAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Services\\Licenses\\LicenseAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Licenses\\LicenseAuthService.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Services\\Licenses\\LicenseAuthService.cs",
+              "RelativeToolTip": "Services\\Licenses\\LicenseAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:19:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModule.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\UserModule.cs",
+              "RelativeDocumentMoniker": "Modules\\UserModule.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\UserModule.cs",
+              "RelativeToolTip": "Modules\\UserModule.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAUwFsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:18:32.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\ApiConfiguration.cs",
+              "RelativeDocumentMoniker": "ApiConfiguration.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\ApiConfiguration.cs",
+              "RelativeToolTip": "ApiConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:18:09.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\config.json",
+              "RelativeDocumentMoniker": "config.json",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\config.json",
+              "RelativeToolTip": "config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T23:17:37.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LicenseModule.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\LicenseModule.cs",
+              "RelativeDocumentMoniker": "Modules\\LicenseModule.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\LicenseModule.cs",
+              "RelativeToolTip": "Modules\\LicenseModule.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAADAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:17:10.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrefixModule.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\PrefixModule.cs",
+              "RelativeDocumentMoniker": "Modules\\PrefixModule.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Modules\\PrefixModule.cs",
+              "RelativeToolTip": "Modules\\PrefixModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:17:07.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrefixHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\PrefixHandler.cs",
+              "RelativeDocumentMoniker": "PrefixHandler.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\PrefixHandler.cs",
+              "RelativeToolTip": "PrefixHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:16:52.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ricar\\Documents\\GitHub\\Discord-Bot-OAuth-Client\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:16:46.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
