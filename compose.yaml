@@ -1,0 +1,17 @@
+﻿services:
+  discord_template:
+    build:
+      context: ./DiscordTemplate
+      dockerfile: Dockerfile
+    container_name: discord_template
+    environment:
+      - discord_token=TOKEN HERE
+      - prefix=!
+      - guildId=.
+      - clientId=.
+      - clientSecret=.
+      - baseUrl=.
+      - response_type=
+      - scope=admin openid
+      - code_challenge_method=S256
+      - state=

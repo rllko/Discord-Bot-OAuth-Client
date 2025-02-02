@@ -1,0 +1,7 @@
+
+/DiscordTemplate/bin/
+/.vs
+**/DiscordTemplate/obj/Debug
+**/DiscordTemplate/obj/
+**/DiscordTemplate/bin/
+/Singleton Pattern

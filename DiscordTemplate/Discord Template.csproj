@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DiscordTemplate</RootNamespace>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.16.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0-rc.1.24431.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0-rc.1.24431.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.0-rc.1.24431.7" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0-rc.1.24431.7" />
+	  <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="9.0.0-rc.1.24452.1" />
+	  <PackageReference Include="Polly" Version="8.4.1" />
+	  <PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
