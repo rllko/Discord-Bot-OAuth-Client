@@ -83,7 +83,7 @@ public class Program
             await sCommands.RegisterCommandsGloballyAsync();
         };
         
-        await _client.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("discord_token"));
+        await _client.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("DISCORD_TOKEN"));
         await _client.StartAsync();
         await Task.Delay(-1);
     }

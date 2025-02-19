@@ -1,0 +1,9 @@
+﻿services:
+  discord_template:
+    build:
+      context: ./DiscordTemplate
+      dockerfile: Dockerfile
+    container_name: discord_template
+    env_file:
+      - .env
+

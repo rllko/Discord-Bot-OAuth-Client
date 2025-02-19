@@ -2,9 +2,9 @@
 
 public class ApiConfiguration
 {
-    public string clientId { get; set; }
-    public string clientSecret { get; set; }
-    public string baseUrl { get; set; }
+    public string clientId { get; set; } = Environment.GetEnvironmentVariable("CLIENT_ID");
+    public string clientSecret { get; set; } = Environment.GetEnvironmentVariable("CLIENT_SECRET");
+    public string baseUrl { get; set; } = Environment.GetEnvironmentVariable("BASE_URL");
 
     public string response_type { get; set; }
     public string state { get; set; }

@@ -6,3 +6,4 @@
 **/DiscordTemplate/bin/
 /Singleton Pattern
 /DiscordTemplate/.idea
+.env
