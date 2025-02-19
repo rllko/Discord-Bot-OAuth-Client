@@ -11,7 +11,6 @@ namespace DiscordTemplate.AuthClient
     internal class OAuthClient : IOAuthClient
     {
         private readonly HttpClient _httpClient;
-        private readonly ApiConfiguration? _api;
 
         private readonly IAsyncPolicy<HttpResponseMessage> _retryPolicy =
             Policy<HttpResponseMessage>
@@ -24,13 +23,6 @@ namespace DiscordTemplate.AuthClient
         public OAuthClient(HttpClient httpClient, IConfigurationRoot configuration)
         {
             _httpClient = httpClient;
-
-            _api = configuration.Get<ApiConfiguration>();
-
-            if(_api == null)
-            {
-                throw new Exception("Api is missing in the configuration file.");
-            }
         }
 
 
@@ -39,19 +31,18 @@ namespace DiscordTemplate.AuthClient
             var coveVerifier = generateCodeChallenge();
 
             var query =
-            $"?response_type={_api.response_type}" +
-            $"&client_id={_api.clientId}" +
+            $"?response_type={ApiConfiguration.ResponseType}" +
+            $"&client_id={ApiConfiguration.ClientId}" +
             $"&code_challenge=" + coveVerifier +
-            $"&code_challenge_method={_api.code_challenge_method}" +
-            $"&scope={_api.scope}" +
-            $"&state={_api.state}";
+            $"&scope={ApiConfiguration.Scope}" +
+            $"&state={ApiConfiguration.State}";
 
             // Send Request
             var httpResponseMessage = await _retryPolicy.ExecuteAsync(  () =>
             {
                 // Create Request and add headers
                 var requestMessage = new HttpRequestMessage(
-                    HttpMethod.Get, _api.authorizationEndpoint + query)
+                    HttpMethod.Get, ApiConfiguration.AuthorizationEndpoint + query)
                 {
                     Headers =
                     {
@@ -86,15 +77,15 @@ namespace DiscordTemplate.AuthClient
             var httpResponseMessage = await _retryPolicy.ExecuteAsync( () =>
             {
                 // Create Request and add headers
-                var requestMessage = new HttpRequestMessage(HttpMethod.Post, _api.tokenEndpoint)
+                var requestMessage = new HttpRequestMessage(HttpMethod.Post, ApiConfiguration.TokenEndpoint)
                 {
                     Content =
                     new FormUrlEncodedContent(
                     new Dictionary<string, string>
                     {
                         { "grant_type", "authorization_code" },
-                        { "client_id", _api.clientId },
-                        { "client_secret", _api.clientSecret },
+                        { "client_id", ApiConfiguration.ClientId },
+                        { "client_secret", ApiConfiguration.ClientSecret },
                         { "code", accessCode.code },
                     }),
                     Headers =

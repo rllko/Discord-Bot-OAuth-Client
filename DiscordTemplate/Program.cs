@@ -57,9 +57,8 @@ public class Program
         IServiceProvider provider = scope.ServiceProvider;
 
         // Get the Discord Client from services
-        var _client = provider.GetRequiredService<DiscordSocketClient>();
+        var client = provider.GetRequiredService<DiscordSocketClient>();
         
-
         var oAuthClient = provider.GetRequiredService<IOAuthClient>();
 
         // You need a Service instance to register commands to your server
@@ -73,18 +72,18 @@ public class Program
         await pCommands.InitializeAsync();
 
         // Add The log events so we can see what is happening
-        _client.Log += async (LogMessage message) => Console.WriteLine($"{message.Source}: {message.Message}");
+        client.Log += async (LogMessage message) => Console.WriteLine($"{message.Source}: {message.Message}");
         sCommands.Log += async (LogMessage message) => Console.WriteLine($"{message.Source}: {message.Message}");
         //_client.UserJoined 
 
-        _client.Ready += async () =>
+        client.Ready += async () =>
         {
             // Then register the commands to your guild
             await sCommands.RegisterCommandsGloballyAsync();
         };
         
-        await _client.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("DISCORD_TOKEN"));
-        await _client.StartAsync();
+        await client.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("DISCORD_TOKEN"));
+        await client.StartAsync();
         await Task.Delay(-1);
     }
 }

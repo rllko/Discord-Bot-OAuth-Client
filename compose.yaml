@@ -1,9 +1,8 @@
 ﻿services:
   discord_template:
-    build:
-      context: ./DiscordTemplate
-      dockerfile: Dockerfile
+    build: ./DiscordTemplate
     container_name: discord_template
     env_file:
       - .env
+    image: discord-template:dev 
 
